@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Curriculum Vitae - Jerson Garcia</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/JG icon.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+                
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Jerson Garcia</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/jerson.jpeg" alt="..." /></span>
+            </a>
+            <!-- Language Selector -->
+            <div style="position: absolute; top: 17px; right: 100px;">
+                <label for="languageSelector"></label>
+                <select id="languageSelector">
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                </select>
+            </div> 
+            <script>
+                const languageSelector = document.getElementById('languageSelector');
+                languageSelector.addEventListener('change', function () {
+                    const selectedLanguage = this.value;
+                    let targetUrl = selectedLanguage === 'es' ? 'index-es.html' : 'index.html';
+                    targetUrl += `?v=${Date.now()}`; // Add cache-busting query parameter
+                    window.location.href = targetUrl;
+                });
+            
+                // Set the default language to Spanish
+                languageSelector.value = 'es';
+            </script>      
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Acerca de Mi</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Educacion</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Reconocimientos</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Intereses</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Jerson
+                        <span class="text-primary">Garcia</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Provo, UT 84606 · (385) 201-8283 · <a href="mailto:jerson.7@icloud.com">jerson.7@icloud.com</a> <i class="fas fa-envelope"></i> 
+                    </div>
+                    <p class="lead mb-5">Soy de Perú y estudiante de tercer año de Ingeniería Civil en la Universidad Brigham Young. <br>
+                        Como estudiante, también sirvo como presidente de Tecnología de BYU ASCE y como miembro activo del BYU Steel Bridge Club. <br>
+                        Actualmente, trabajo como asistente de investigación en el laboratorio de hidroinformática de BYU. Mi trabajo en el laboratorio de hidroinformática me ayuda a familiarizarme más con los lenguajes de programación y a trabajar en el desarrollo de aplicaciones para IOS y Android.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/jerson-garcia-24b3a1200/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/jersjar7" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://www.instagram.com/jerson_engineeringblog/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experiencia</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">BYU Laboratorio de Hydroinformatica</h3>
+                            <div class="subheading mb-3">Asistente de Investigacion</div>
+                            <p> ■ Desarrollo una aplicación para teléfono mobil en iOS y Android que muestra pronósticos de inundaciones de ríos en todo Estados Unidos<br>
+                                ■ Realizo investigaciones sobre datos de inundaciones en los EE. UU. para crear mapas utilizando ArcGIS Pro<br>
+                                ■ Analizo los pronósticos de inundaciones a partir de datos del NWM y los comparo con hidrogramas de caudales reales del USGS</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Mayo 2022 - Presente</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Acute Engineering </h3>
+                            <div class="subheading mb-3">Internado como Ingeniero Estructural</div>
+                            <p> ■ Realize dimensionamiento y especificación de elementos estructurales usando Bluebeam y creando informes de cálculo con Excel<br>
+                                ■ Cree y documente hojas de cálculo basadas en prácticas y código estándar con AutoCAD and Microsoft Word<br>
+                                ■ Investigue el cumplimiento del código, los estándares de la industria, nuevas herramientas de análisis y estudios de viabilidad de mercado</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Enero 2023 - Abril 2013</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">BYU Laboratorio de Presas de Baja Altura </h3>
+                            <div class="subheading mb-3">Asistente de Investigacion</div>
+                            <p> ■ Identifiqué represas de baja caída en todo el país utilizando Google Earth Pro para cinco estados diferentes de EE. UU.<br>
+                                ■ Desarrollé una base de datos para organizar y almacenar mejor el trabajo realizado en dos plataformas diferentes<br>
+                                ■ Realicé capacitación para seis compañeros de trabajo sobre el uso de Python para maximizar productividad.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Agosto 2021- Noviembre 2022</span></div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Educacion</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Universidad Brigham Young</h3>
+                            <div class="subheading mb-3">Licenciado en Ciencias</div>
+                            <div>Ingeniería Civil y Construcción</div>
+                            <p>GPA: 3.67</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Agosto 2021 - Graduación potencial: Mayo 2025</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Universidad Privado Antenor Orrego</h3>
+                            <div class="subheading mb-3">Arquitectura, Urbanismo y Artes</div>
+                            <p>GPA: 3.78</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Marzo 2013 - Diciembre 2014</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Habilidades</h2>
+                    <div class="subheading mb-3">Softwares</div>
+                    <!-- First pair of images -->
+                    <ul class="list-inline image-list">
+                        <li class="list-inline-item"><img src="assets/img/autocad.png" alt="AutoCAD Logo"></li>
+                        <li class="list-inline-item"><img src="assets/img/revit.png" alt="Revit Logo"></li>
+                    </ul>
+                    <!-- Second pair of images -->
+                    <ul class="list-inline image-list">
+                        <li class="list-inline-item"><img src="assets/img/arcgispro.png" alt="ArcGIS Pro Logo"></li>
+                        <li class="list-inline-item"><img src="assets/img/civil3D.png" alt="Civil 3D Logo"></li>
+                    </ul>
+                    <!-- Third pair of images -->
+                    <ul class="list-inline image-list">
+                        <li class="list-inline-item"><img src="assets/img/bluebeam.png" alt="Bluebeam Logo"></li>
+                    </ul>
+                    <div class="subheading mb-3">Languages de Programación e Inteligencia Artificial</div>
+                    <!-- First pair of images -->
+                    <ul class="list-inline image-list">
+                        <li class="list-inline-item"><img src="assets/img/python320pxs.png" alt="Python Programming"></li>
+                        <li class="list-inline-item"><img src="assets/img/dart Small.png" alt="Dart Programming"></li>
+                    </ul>
+                    <!-- Second pair of images -->
+                    <ul class="list-inline image-list">
+                        <li class="list-inline-item"><img src="assets/img/chatgpt.png" alt="Chat GPT Open AI"></li>
+                        <li class="list-inline-item"><img src="assets/img/bard.png" alt="Bard Google Assistant"></li>
+                    </ul>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Reconocimientos</h2>
+                    <ul class="fa-ul mb-0">
+        
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>er</sup>
+                            Puesto - ASCE Steel Bridge Nacionales - <span>Universidad de California San Diego, <span>Categoria de </span> </span> <a href="https://www.youtube.com/watch?v=axfOzp5_I_k" target="_blank">Video</a> 
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>er</sup>
+                            Puesto - Universidad Brigham Young - Concurso de Diseño Arquitectónico 2023
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>er</sup>
+                            Puesto - ASCE Steel Bridge Regionales - Universidad de Nevada Las Vegas 2022
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Intereses</h2>
+                    <p>Además de mis actividades académicas, disfruto atesorando los momentos con mi esposa y abrazando la belleza del aire libre. A lo largo del año, participo activamente en el fútbol, ​​mientras que los meses cálidos en Utah me ofrecen la oportunidad perfecta para disfrutar de caminatas, correr y explorar las maravillas de nuestros Parques Nacionales.</p>
+                    <p class="mb-0">Incluso cuando estoy confinado en el interior, busco conocimiento e inspiración a través de documentales y diversos canales de YouTube que me mantienen entretenido. Mi pasión por el crecimiento continuo me impulsa a invertir una cantidad sustancial de mi tiempo libre en explorar nuevos conceptos y perfeccionar habilidades tanto profesionales como recreativas, ya que creo firmemente que el aprendizaje es un viaje enriquecedor para toda la vida.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
